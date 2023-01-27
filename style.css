@@ -1,0 +1,31 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 30px;
+}
+.orange-colour {
+  color: orange;
+}
+section {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+.half-width img {
+  width: 40%;
+  padding-left: 25%;
+}
+.Hire-me {
+  text-decoration: none;
+  background-color: chocolate;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
