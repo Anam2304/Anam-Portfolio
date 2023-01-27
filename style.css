@@ -28,4 +28,5 @@ section {
   color: black;
   padding: 10px 20px;
   border-radius: 8px;
+  background-image: linear-gradient(orange, tomato);
 }
