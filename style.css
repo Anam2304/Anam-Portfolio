@@ -12,7 +12,7 @@ h2 {
 .orange-colour {
   color: orange;
 }
-section {
+.flexible-container {
   display: flex;
   margin-bottom: 15px;
 }
@@ -43,4 +43,30 @@ section {
   background-image: url(image/bottom.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.experience {
+  background-image: url(image/top.png);
+  background-repeat: no-repeat;
+  padding: 3%;
+}
+.web {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 30px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px gray;
+}
+#developer {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#Full-developer {
+  border-left: 7px solid;
+  border-image: linear-gradient(salmon, tomato);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
 }
